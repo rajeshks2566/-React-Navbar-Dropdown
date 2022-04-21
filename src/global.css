@@ -1,0 +1,371 @@
+/* ***************************Navbar************************** */
+/* * {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+#navSec {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: deepskyblue;
+}
+#navArt {
+  width: 80%;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logoArt > ul {
+  display: flex;
+  align-items: center;
+  height: 6vh;
+}
+#logoArt > ul > li {
+  list-style-type: none;
+  margin: 13px;
+}
+#logoArt > ul > li > a {
+  border: 2px solid;
+  padding: 6px;
+  text-decoration: none;
+  border-radius: 6px;
+  background-color: navy;
+  color: white;
+  transition: all 0.7s;
+}
+#logoArt > ul > li > a:hover {
+  background-color: crimson;
+  border: 2px solid black;
+}
+#menuArt > ul {
+  display: flex;
+  align-items: center;
+  height: 6vh;
+}
+
+#menuArt > ul > li {
+  list-style-type: none;
+  margin: 13px;
+}
+#menuArt > ul > li > a {
+  border: 2px solid;
+  padding: 6px;
+  text-decoration: none;
+  border-radius: 6px;
+  background-color: navy;
+  color: white;
+  transition: all 0.7s;
+}
+#menuArt > ul > li > a:hover {
+  background-color: crimson;
+  border: 2px solid black;
+}
+#menuArt > ul > li > a.active {
+  background-color: crimson;
+}
+#courses {
+  position: absolute;
+  top: 97px;
+  left: 170px;
+  background-color: black;
+  color: white;
+  border-bottom: 3px solid skyblue;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  width: 200px;
+  box-shadow: 0px 2px 10px black;
+  
+}
+#courses > li {
+  padding: 10px;
+  border-bottom: 1px solid white;
+  list-style-type: none;
+}
+#courses > li:hover
+{
+    background-color: dodgerblue;
+    color: black;
+    font-weight: bold;
+}
+#courses > li:last-child {
+  border-bottom: none;
+}
+.open {
+  display: none;
+} */
+
+/* ********************Employee ****************************/
+/* .empSec {
+  width: 100%;
+}
+.empSec article {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  border: 2px solid;
+}
+.empSec form {
+  padding: 10px;
+  width: 550px;
+}
+.emp-div input {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid grey;
+  color: white;
+  padding: 14px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  background-color: rgba(197, 197, 197, 0.51);
+  color: black;
+  font-weight: bold;
+}
+.empSec select {
+  width: 100%;
+  padding: 14px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.skills input {
+  margin-left: 15px;
+  margin-right: 2px;
+}
+.skills {
+  margin-bottom: 10px;
+}
+.expr input {
+  margin-left: 15px;
+  margin-right: 2px;
+}
+.btn1 button {
+  padding: 16px 48px;
+  border-radius: 50px;
+  position: relative;
+  left: 33%;
+  background-color: crimson;
+  color: black;
+  border: none;
+  font-weight: bold;
+}
+.dob input {
+  width: 100%;
+  color: black;
+  padding: 14px;
+  background-color: rgba(197, 197, 197, 0.51);
+}
+label {
+  font-weight: bold;
+}
+input::placeholder {
+  color: crimson;
+  font-weight: 700;
+  font-size: 10px;
+}
+.btn2 button {
+  padding: 16px 48px;
+  border-radius: 50px;
+  position: relative;
+  left: 34%;
+  background-color: greenyellow;
+  color: black;
+  border: none;
+  font-weight: bold;
+} 
+
+/* *************Project******************* */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.secBlock {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.secBlock article {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.secBlock article img {
+  width: 100%;
+  height: 30vh;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.secBlock article div {
+  width: 23%;
+  height: 60vh;
+  margin: 10px;
+  text-align: left;
+  background-color: azure;
+  font-family: Arial, Helvetica, sans-serif;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom: 5px solid rgb(3, 81, 130);
+  box-shadow: 0px 2px 10px black;
+}
+h4 {
+  font-size: 10px;
+}
+h3 {
+  text-align: center;
+  font-weight: bold;
+  color: firebrick;
+  font-size: 20px;
+  width: 100%;
+}
+.p {
+  color: white;
+  font-weight: bold;
+  margin: 5px;
+  background-color: green;
+  width: 40%;
+  text-align: center;
+  border-radius: 10px;
+  height: 4vh;
+  font-size: 12px;
+  padding: 6px;
+}
+.p2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px;
+}
+.p3 {
+  margin: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: crimson;
+}
+.p4 {
+  font-size: 12px;
+  margin: 5px;
+} 
+.bestseller
+{
+  font-size: 13px;
+  color: black;
+  position: relative;
+  top: 105px;  
+  left: 170px;
+  color: green;
+  font-weight: bold;
+}
+.btn button
+{
+  padding: 20px;
+}
+
+/* Spotify Login */
+/* Spotify */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.spotifySec article {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.spotifySec form {
+  padding: 10px;
+  width: 550px;
+}
+.spo-grp input ::placeholder {
+  color: #ffffff;
+}
+.spo-grp input {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid rgb(136, 136, 4);
+  color: white;
+  padding: 14px;
+  margin: 10px 0;
+  border-radius: 3px;
+  background-color: rgba(197, 197, 197, 0.51);
+}
+
+.spo-gender input {
+  margin: 5px;
+}
+.spo-gender {
+  margin: 20px;
+  margin-left: 0px;
+  color: black;
+}
+.dob input {
+  width: 100%;
+  color: black;
+  padding: 14px;
+}
+.spo-robo {
+  border: 1px solid #d3d3d3;
+  width: 60%;
+  height: 15vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  color: black;
+  margin-top: 10px;
+  padding: 20px;
+}
+footer {
+  position: relative;
+  top: -10px;
+  font-size: 12px;
+}
+footer a {
+  color: green;
+  font-weight: 500;
+}
+.spo-button button {
+  padding: 16px 48px;
+  border-radius: 50px;
+  position: relative;
+  left: 33%;
+  background-color: #1ed760;
+  color: black;
+  border: none;
+  font-weight: bold;
+}
+.spo-button button:hover {
+  padding: 18px 50px;
+}
+
+/* to do list */
+.todosec
+{
+width: 100%;
+}
+.todosec article
+{
+  width: 40%;
+  border: 2px solid;
+  margin: auto;
+}
+.todosec div
+{
+  text-align: center;
+  margin: 30px;
+}
