@@ -9,8 +9,8 @@ import SpotifyLogin from "./spotify/SpotifyLogin";
 function App() {
   return <div>
     {/* <Navbar /> */}
-    {/* <EmpForm /> */}
-    <Products />
+    <EmpForm />
+    {/* <Products /> */}
     {/* <SpotifyLogin /> */}
  </div>;
 }
