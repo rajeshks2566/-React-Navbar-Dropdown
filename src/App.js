@@ -10,8 +10,8 @@ function App() {
   return <div>
     {/* <Navbar /> */}
     {/* <EmpForm /> */}
-    {/* <Products /> */}
-    <SpotifyLogin />
+    <Products />
+    {/* <SpotifyLogin /> */}
  </div>;
 }
 
